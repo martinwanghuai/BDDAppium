@@ -1,0 +1,15 @@
+package parallel;
+
+
+import cucumber.api.CucumberOptions;
+import cucumber.api.testng.AbstractTestNGCucumberTests;
+
+
+
+
+@CucumberOptions(features ="src/test/resources/parallel/ui/[FEATURE_FILE_NAME].feature",
+				 format = {"json:target/cucumber/[FEATURE_FILE_NAME].json"},
+				 monochrome = true,
+				 glue={"pageObject","cucumber.web"})
+public class [FEATURE_FILE_NAME] extends AbstractTestNGCucumberTests{
+}

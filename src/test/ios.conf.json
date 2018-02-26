@@ -1,0 +1,29 @@
+{
+  "server": "127.0.0.1:4723",
+  
+  "capabilities": {
+    "platformName": "iOS",
+    "platformVersion": "10.3",
+    "app": "/Users/martinwang/Library/Developer/Xcode/DerivedData/VLV-evqhtgidwqnyztasvmkbtgzrvyig/Build/Products/Uat-iphoneos/VLV_Uat.app",
+  },
+
+  "environments": {
+    "simulator": {
+      "automationName": "XCUITest",
+    	  "autoGrantPermissions": "true",
+      "device": "iPhone Simulator",
+      "deviceName": "iPhone Simulator"
+    },
+    "iphone_5": {
+      "automationName": "XCUITest",
+      "deviceName": "iPhone",
+	  "udid": "5720e6f52a8b961b87d9f782864ae90909bc2cb3",
+  	  "bundleId": "com.vlv.app.uat",
+      "showXcodeLog": "false",
+      "xcodeOrgId": "PCCW eCommerce Technology Limited",
+      "xcodeSigningId": "iPhone Developer"
+    }
+    
+   
+  }
+}

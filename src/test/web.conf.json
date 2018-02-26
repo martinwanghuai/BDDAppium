@@ -1,0 +1,34 @@
+{
+  "server": "127.0.0.1:4723",
+  
+  "capabilities": {
+  },
+
+  "environments": {
+    "Chrome": {
+      "deviceName": "Chrome"
+    },
+    "FireFox": {
+      "deviceName": "FireFox"
+    }
+    "android chrome": {
+      "platformName": "Android",
+      "platformVersion": "8.0",
+      "automationName": "Appium",
+      "deviceName": "Android",
+	  "udid":"259e7f20",
+	  "browserName":"Chrome"
+    }
+     "iOS safari": {
+      "platformName": "iOS",
+      "platformVersion": "10.3",
+    	  "app": "/Users/martinwang/Downloads/VLV_Uat.app",
+      "deviceName": "iOS",
+	  "udid": "5720e6f52a8b961b87d9f782864ae90909bc2cb3",
+  	  "browserName": "Safari",
+  	  "autoWebview": "true",
+  	  "automationName": "Appium",
+  	  "app": "io.appium.SafariLauncher"
+    }
+  }
+}

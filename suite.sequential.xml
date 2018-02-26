@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+
+ <test name="Web App Test with Chrome1">
+    <parameter name="config" value="web.conf.json"/>
+    <parameter name="environment" value="Chrome"/>
+    <parameter name="username" value="Alice.SW.Au-Yeung@pccw.com"/>
+    <parameter name="password" value="vmsvlv535"/>
+    <classes>
+      <class name="AutoTest.AutoTest.WebAppTest"/>
+    </classes>
+  </test>
+
+<!--
+<test name="Web App Test with Chrome2">
+    <parameter name="config" value="web.conf.json"/>
+    <parameter name="environment" value="Chrome"/>
+    <parameter name="username" value="sb@sb.com"/>
+    <parameter name="password" value="12345678"/>
+    <classes>
+      <class name="AutoTest.AutoTest.WebAppTest"/>
+    </classes>
+  </test>
+
+
+<test name="Web App Test with Chrome3">
+    <parameter name="config" value="web.conf.json"/>
+    <parameter name="environment" value="Chrome"/>
+    <parameter name="username" value="sc@sc.com"/>
+    <parameter name="password" value="12345678"/>
+    <classes>
+      <class name="AutoTest.AutoTest.WebAppTest"/>
+    </classes>
+  </test>
+  
+  <test name="Web App Test with Chrome4">
+    <parameter name="config" value="web.conf.json"/>
+    <parameter name="environment" value="Chrome"/>
+    <parameter name="username" value="sd@sd.com"/>
+    <parameter name="password" value="12345678"/>
+    <classes>
+      <class name="AutoTest.AutoTest.WebAppTest"/>
+    </classes>
+  </test>
+  
+  <test name="Web App Test with Chrome 5">
+    <parameter name="config" value="web.conf.json"/>
+    <parameter name="environment" value="Chrome"/>
+    <parameter name="username" value="se@se.com"/>
+    <parameter name="password" value="12345678"/>
+    <classes>
+      <class name="AutoTest.AutoTest.WebAppTest"/>
+    </classes>
+  </test>
+  
+  <test name="Web App Test with Chrome 6">
+    <parameter name="config" value="web.conf.json"/>
+    <parameter name="environment" value="Chrome"/>
+    <parameter name="username" value="sf@sf.com"/>
+    <parameter name="password" value="12345678"/>
+    <classes>
+      <class name="AutoTest.AutoTest.WebAppTest"/>
+    </classes>
+  </test>
+-->
+
+<!--
+  <test name="Android Emulator for native mobile app">
+  	<parameter name="config" value="android.conf.json"/>
+    <parameter name="environment" value="emulator"/>
+    <classes>
+      <class name="AutoTest.AutoTest.AndroidTest_VLV"/>
+    </classes>
+  </test>
+ 
+ <test name="Web App Test with Chrome">
+    <parameter name="config" value="web.conf.json"/>
+    <parameter name="environment" value="Chrome"/>
+    <classes>
+      <class name="AutoTest.AutoTest.WebAppTest"/>
+    </classes>
+  </test>
+   
+  <test name="Web App Test for FireFox">
+    <parameter name="config" value="web.conf.json"/>
+    <parameter name="environment" value="FireFox"/>
+    <classes>
+      <class name="AutoTest.AutoTest.WebAppTest"/>
+    </classes>
+  </test>
+
+  
+  <test name="IOS Real Device for hybrid mobile app">
+  	<parameter name="config" value="web.conf.json"/>
+    <parameter name="environment" value="iOS safari"/>
+    <classes>
+	  <class name="AutoTest.AutoTest.RealDevices_WebAppTest_VLV"/>
+    </classes>
+  </test>
+
+
+  <test name="Android Real Device for hybrid mobile app">
+  	<parameter name="config" value="webapp.conf.json"/>
+    <parameter name="environment" value="android chrome"/>
+    <classes>
+	  <class name="AutoTest.AutoTest.RealDevices_WebAppTest_VLV"/>
+    </classes>
+  </test>
+  
+  <test name="Android Emulator for native mobile app">
+  	<parameter name="config" value="android.conf.json"/>
+    <parameter name="environment" value="emulator"/>
+    <classes>
+      <class name="AutoTest.AutoTest.AndroidTest_VLV"/>
+    </classes>
+  </test>
+
+   <test name="Android Real Device for native mobile app">
+   	<parameter name="config" value="android.conf.json"/>
+    <parameter name="environment" value="galaxy_s7"/>
+    <classes>
+	  <class name="AutoTest.AutoTest.AndroidTest_VLV"/>
+    </classes>
+  </test> 
+
+  	
+  <test name="IOS Simulator for native mobile app">
+  	<parameter name="config" value="ios.conf.json"/>
+    <parameter name="environment" value="simulator"/>
+    <classes>
+	  <class name="AutoTest.AutoTest.IOSTest_VLV"/>
+    </classes>
+  </test> 
+ 
+
+  <test name="IOS Real Device for native mobile app">
+  	<parameter name="config" value="ios.conf.json"/>
+    <parameter name="environment" value="iphone_5"/>
+    <classes>
+	  <class name="AutoTest.AutoTest.IOSTest_VLV"/>
+    </classes>
+  </test>
+  -->  
+</suite>

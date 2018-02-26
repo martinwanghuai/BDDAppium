@@ -1,0 +1,23 @@
+{
+  "server": "127.0.0.1:4723",
+  
+  "capabilities": {
+    "platformName": "Android",
+    "platformVersion": "8.0",
+    "automationName": "UIAutomator2",
+    "app": "/Users/martinwang/Downloads/vlv-prod-1.0.0-20171120.apk",
+    "autoGrantPermissions": "true",
+  },
+
+  "environments": {
+    "emulator": {
+      "device": "Android Emulator",
+      "deviceName": "Android Emulator"
+    },
+    "galaxy_s7": {
+      "device": "Android",
+      "deviceName": "Android",
+	  "udid":"259e7f20"
+    }
+  }
+}
